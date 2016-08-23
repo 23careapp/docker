@@ -1,5 +1,5 @@
 FROM php:5.6.9-apache
-MAINTAINER TingouWu <wutingou@gmail.com>
+MAINTAINER 23care <fengmin.wu@rontgens.com>
 ADD php.ini    /usr/local/etc/php/php.ini
 ADD cp /var/cp
 RUN echo “Asia/shanghai” >> /etc/timezone \
